@@ -41,4 +41,5 @@ public class BoardCommentDto {
     @Column(updatable = false) //수정 시 수정컬럼에서 제외
     @CreationTimestamp //now() 같이 현재 시간이 자동등록
     private Timestamp registereddate;
+    //fork 테스트
 }
